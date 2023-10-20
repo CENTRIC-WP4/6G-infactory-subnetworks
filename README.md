@@ -5,4 +5,4 @@ This repository contains codes implementing a 6G in-factory subnetwork scenario 
 ![image](https://github.com/CENTRIC-WP4/6G-infactory-subnetworks/blob/main/in-factory%20(3).gif).
 
 
-
+MORE UPDATE ON THE WAY!!
