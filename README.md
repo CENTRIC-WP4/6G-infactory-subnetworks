@@ -4,6 +4,7 @@
 
 ## Overview
 This repository contains code for interference management in 6G in-X subnetworks, with a focus on machine learning techniques. The deployment scenario considered is uncoordinated autonomous robots inside a factory. The in-factory scenario comprises multiple mobile robots on a factory floor inspired by those defined by 5G-ACIA, as illustrated in the figure:
+
 ![image](https://github.com/CENTRIC-WP4/6G-infactory-subnetworks/blob/main/in-factory.gif)
 
 ## Expected outputs
