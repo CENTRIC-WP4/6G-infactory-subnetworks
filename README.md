@@ -83,4 +83,4 @@ There are two main ways to contribute to this repository:
 
 ## License
 
-This project is licensed under the MIR license - see the [LICENSE](https://github.com/CENTRIC-WP4/Multiple-access-with-MuJoCo-robots/blob/main/LICENSE).
+This project is licensed under the MIT license.
