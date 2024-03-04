@@ -1,6 +1,6 @@
 # 6G in-Factory Subnetworks
 
-Authors: Ramoni Adeogun, Bjarke Madsen and Saeed Hakimi - Aalborg University, Denmark
+Authors: Ramoni Adeogun, and Bjarke Madsen - Aalborg University, Denmark
 
 This repository contains code for implementing 6G in-X subnetworks tailored for industrial applications within a multi-agent reinforcement learning environment. It aims to explore the challenges associated with developing reinforcement learning techniques capable of addressing both protocol learning for wireless heterogeneous control services and radio resource allocation. The deployment scenario considered is uncoordinated autonomous robots inside a factory. The in-factory scenario comprises multiple mobile robots on a factory floor inspired by those defined by 5G-ACIA, as illustrated in the figure:
 
