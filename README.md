@@ -1,7 +1,8 @@
 # 6G in-Factory Subnetworks
 
-## Overview
-This repository contains code for implementing 6G in-X subnetworks tailored for industrial applications within a multi-agent reinforcement learning environment. Its aim is to explore the challenges associated with developing reinforcement learning techniques capable of addressing both protocol learning for wireless heterogeneous control services and radio resource allocation. The deployment scenario considered is uncoordinated autonomous robots inside a factory. The in-factory scenario comprises multiple mobile robots on a factory floor inspired by those defined by 5G-ACIA, as illustrated in the figure:
+Authors: Ramoni Adeogun, Bjarke Madsen and Saeed Hakimi - Aalborg University, Denmark
+
+This repository contains code for implementing 6G in-X subnetworks tailored for industrial applications within a multi-agent reinforcement learning environment. It aims to explore the challenges associated with developing reinforcement learning techniques capable of addressing both protocol learning for wireless heterogeneous control services and radio resource allocation. The deployment scenario considered is uncoordinated autonomous robots inside a factory. The in-factory scenario comprises multiple mobile robots on a factory floor inspired by those defined by 5G-ACIA, as illustrated in the figure:
 
 ![image](https://github.com/CENTRIC-WP4/6G-infactory-subnetworks/blob/main/in-factory.gif)
 
@@ -43,12 +44,12 @@ Create a new run with the function: `config, _, _ = initialise_trainer(NAME, <in
 
 ## Baselines
 
-The implemented interference management techniques are either heuristics or reinforcement learning based. 
+The implemented interference management techniques are either heuristics or reinforcement learning-based. 
 
 The considered benchmarks include: 
-  1. Fixed channel assignment: channel are randomly assigned to each subnetwork at initialization without the possiblity for dynamic updates. 
-  2. Greedy: each subnetwork selects the least interfered channel using its own sensing information
-  3. Centralized Graph Coloring: select the best channel based on a global view on the system
+  1. Fixed channel assignment: Channels are randomly assigned to each subnetwork at initialization without the possibility of dynamic updates. 
+  2. Greedy: each subnetwork selects the least interfered channel using its sensing information
+  3. Centralized Graph Coloring: select the best channel based on a global view of the system
 
 The considered algorithms include:
   1. Multi-Agent Double Deep Q-Networks (MAPPO)
